@@ -1,6 +1,6 @@
 body { 
-    color:aliceblue(255, 255, 255);
-    background: rgb(0, 0, 0, )
+    color:rgb(255, 255, 255);
+    background: rgb(0, 0, 0, );
     margin: 0px;
     font-family: "chakra petch", sans- serif;
     margin-bottom: 100px;
@@ -10,6 +10,7 @@ header{
     border-bottom: solid 2px rgb(42, 122, 228);
     padding: 20px;
     font-size: 32px;
+}
 
 .chamada {
     background: rgb(184, 156, 213);
@@ -44,8 +45,16 @@ h1 {
 }
 
 .categoria-videos img {
-  opacity: 0.5;
-  border: 3px solid green;
+opacity: 0.5;
+height: 200px; 
 }
 
-categoria-videos img
+  .categoria-videos img:hover {
+    opacity:1.0;
+   border: 3px solid green;
+}
+
+
+.categoria h2 {
+     color: rgb(42, 122, 228);
+  }
